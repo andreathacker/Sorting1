@@ -1,0 +1,352 @@
+Adams Robertson County 645
+Adamsville McNairy County 1983
+Alamo Crockett County 2392
+Alcoa Blount County 7734
+Alexandria DeKalb County 814
+Algood Putnam County 2942
+Allardt Fentress County 642
+Altamont Grundy County 1136
+Ardmore Giles County 1082
+Arlington Shelby County 2569
+Ashland City Cheatham County 3641
+Athens McMinn County 13220
+Atoka Tipton County 3235
+Atwood Carroll County 1000
+Auburntown Cannon County 252
+Baileyton Greene County 504
+Baneberry Jefferson County 366
+Bartlett Shelby County 40543
+Baxter Putnam County 1279
+Bean Station Grainger County 2570
+Beersheba Springs Grundy County 553
+Bell Buckle Bedford County 391
+Belle Meade Davidson County 2943
+Bells Crockett County 2313
+Benton Polk County 1138
+Berry Hill Davidson County 674
+Bethel Springs McNairy County 763
+Big Sandy Benton County 518
+Blaine Grainger County 1585
+Bluff City Sullivan County 1559
+Bolivar Hardeman County 5802
+Braden Fayette County 271
+Bradford Gibson County 1113
+Brentwood Williamson County 23445
+Brighton Tipton County 1719
+Bristol Sullivan County 24821
+Brownsville Haywood County 10748
+Bruceton Carroll County 1554
+Bulls Gap Hawkins County 714
+Burlison Tipton County 453
+Burns Dickson County 1366
+Byrdstown Pickett County 903
+Calhoun McMinn County 496
+Camden Benton County 3828
+Carthage Smith County 2251
+Caryville Campbell County 2243
+Cedar Hill Robertson County 298
+Celina Clay County 1379
+Centertown Warren County 257
+Centerville Hickman County 3793
+Chapel Hill Marshall County 943
+Charleston Bradley County 630
+Charlotte Dickson County 1153
+Chattanooga Hamilton County 155554
+Church Hill Hawkins County 5916
+Clarksburg Carroll County 285
+Clarksville Montgomery County 103455
+Cleveland Bradley County 37192
+Clifton Wayne County 2699
+Clinton Anderson County 9409
+Coalmont Grundy County 948
+Collegedale Hamilton County 6514
+Collierville Shelby County 31872
+Collinwood Wayne County 1024
+Columbia Maury County 33055
+Cookeville Putnam County 23923
+Coopertown Robertson County 3027
+Copperhill Polk County 511
+Cornersville Marshall County 962
+Cottage Grove Henry County 97
+Covington Tipton County 8463
+Cowan Franklin County 1770
+Crab Orchard Cumberland County 838
+Cross Plains Robertson County 1381
+Crossville Cumberland County 8981
+Crump Hardin County 1521
+Cumberland City Stewart County 316
+Cumberland Gap Claiborne County 204
+Dandridge Jefferson County 2078
+Dayton Rhea County 6180
+Decatur Meigs County 1395
+Decaturville Decatur County 859
+Decherd Franklin County 2246
+Dickson Dickson County 12244
+Dover Stewart County 1442
+Dowelltown DeKalb County 302
+Doyle White County 525
+Dresden Weakley County 2855
+Ducktown Polk County 427
+Dunlap Sequatchie County 4173
+Dyer Gibson County 2406
+Dyersburg Dyer County 17452
+Eagleville Rutherford County 464
+East Ridge Hamilton County 20640
+Eastview McNairy County 618
+Elizabethton Carter County 13372
+Elkton Giles County 510
+Englewood McMinn County 1590
+Enville Chester County 230
+Erin Houston County 1490
+Erwin Unicoi County 5610
+Estill Springs Franklin County 2152
+Ethridge Lawrence County 536
+Etowah McMinn County 3663
+Fairview Williamson County 5800
+Farragut Knox County 17720
+Fayetteville Lincoln County 6994
+Finger McNairy County 350
+Forest Hills Davidson County 4710
+Franklin Williamson County 41842
+Friendship Crockett County 608
+Friendsville Blount County 890
+Gadsden Crockett County 553
+Gainesboro Jackson County 879
+Gallatin Sumner County 23230
+Gallaway Fayette County 666
+Garland Tipton County 328
+Gates Lauderdale County 901
+Gatlinburg Sevier County 3382
+Germantown Shelby County 37348
+Gibson Gibson County 414
+Gilt Edge Tipton County 489
+Gleason Weakley County 1463
+Goodlettsville Davidson County 13780
+Gordonsville Smith County 1066
+Grand Junction Hardeman County  321
+Graysville Rhea County 1411
+Greenback Loudon County 954
+Greenbrier Robertson County 4940
+Greeneville Greene County 15198
+Greenfield Weakley County 2208
+Gruetli-Laager Grundy County 1867
+Guys McNairy County 483
+Halls Lauderdale County 2311
+Harriman Roane County 6744
+Harrogate Claiborne County 4073
+Hartsville Trousdale County 2395
+Helenwood Scott County 846
+Henderson Chester County 5670
+Hendersonville Sumner County 40620
+Henning Lauderdale County 1033
+Henry Henry County 520
+Hickory Valley Hardeman County 136
+Hickory Withe Fayette County 2574
+Hohenwald Lewis County 3754
+Hollow Rock Carroll County 963
+Hornbeak Obion County 435
+Hornsby Hardeman County 306
+Humboldt Gibson County 9467
+Huntingdon Carroll County 4349
+Huntland Franklin County 916
+Huntsville Scott County 981
+Iron City Lawrence County  368
+Jacksboro Campbell County 1887
+Jackson Madison County 59643
+Jamestown Fentress County 1839
+Jasper Marion County 3214
+Jefferson City Jefferson County 7760
+Jellico Campbell County 2448
+Johnson City Washington County 55469
+Jonesborough Washington County 4168
+Kenton Gibson County  1306
+Kimball Marion County 1312
+Kingsport Sullivan County  44905
+Kingston Roane County 5264
+Kingston Springs Cheatham County 2773
+Knoxville Knox County 173890
+Lafayette Macon County 3885
+La Follette Campbell County 7926
+LaGrange Fayette County 136
+Lake City Anderson County  1888
+Lakeland Shelby County 6862
+Lakesite Hamilton County 1845
+Lakewood Davidson County 2341
+La Vergne Rutherford County 18687
+Lawrenceburg Lawrence County 10796
+Lebanon Wilson County 20195
+Lenoir City Loudon County 6819
+Lewisburg Marshall County 10413
+Lexington Henderson County 7393
+Liberty DeKalb County 367
+Linden Perry County 1015
+Livingston Overton County 3498
+Lobelville Perry County 915
+Lookout Mountain Hamilton County 2000
+Loretto Lawrence County 1665
+Loudon Loudon County 4476
+Louisville Blount County 2001
+Luttrell Union County 915
+Lynchburg Moore County 5740
+Lynnville Giles County 345
+Madisonville Monroe County 3939
+Manchester Coffee County 8294
+Martin Weakley County 10515
+Maryville Blount County 23120
+Mason Tipton County 1089
+Maury City Crockett County 704
+Maynardville Union County 1782
+McEwen Humphreys County 1702
+McKenzie Carroll County 5295
+McLemoresville Carroll County 259
+McMinnville Warren County 12749
+Medina Gibson County 969
+Medon Madison County 191
+Memphis Shelby County 650100
+Michie McNairy County 647
+Middleton Hardeman County 602
+Midtown Roane County 1306
+Milan Gibson County 7662
+Milledgeville McNairy County 287
+Millersville Sumner County 5308
+Millington Shelby County 10433
+Minor Hill Giles County 437
+Mitchellville Sumner County 207
+Monteagle Grundy County 1238
+Monterey Putnam County 2717
+Morrison Warren County 684
+Morristown Hamblen County 24965
+Moscow Fayette County 460
+Mosheim Greene County 1749
+Mount Carmel Hawkins County 4795
+Mount Juliet Wilson County 12390
+Mount Pleasant Maury County 4491
+Mountain City Johnson County 2500
+Munford Tipton County 4708
+Murfreesboro Rutherford County 68816
+Nashville Davidson County 569892
+New Hope Marion County 1043
+New Johnsonville Humphreys County 1905
+New Market Jefferson County 1234
+New Tazewell Claiborne County 2871
+Newbern Dyer County 2988
+Newport Cocke County 7242
+Niota McMinn County 781
+Nolensville Williamson County 3099
+Normandy Bedford County 141
+Norris Anderson County 1446
+Oak Hill Davidson County 4493
+Oak Ridge Anderson County  27387
+Oakdale Morgan County 244
+Oakland Fayette County 1279
+Obion Obion County 1134
+Oliver Springs Anderson County  3303
+Oneida Scott County 3615
+Orlinda Robertson County 594
+Orme Marion County 124
+Palmer Grundy County 726
+Paris Henry County 9763
+Parker's Crossroads Henderson County 241
+Parrottsville Cocke County 207
+Parsons Decatur County 2452
+Pegram Cheatham County 2146
+Petersburg Lincoln County  580
+Philadelphia Loudon County 533
+Pigeon Forge Sevier County 5083
+Pikeville Bledsoe County 1781
+Piperton Fayette County 589
+Pittman Center Sevier County 477
+Plainview Union County 1866
+Pleasant Hill Cumberland County 544
+Pleasant View Cheatham County 2934
+Portland Sumner County 8458
+Powell's Crossroads Marion County 1286
+Pulaski Giles County 7871
+Puryear Henry County 667
+Ramer McNairy County 354
+Red Bank Hamilton County 12418
+Red Boiling Springs Macon County 1023
+Ridgely Lake County 1667
+Ridgeside Hamilton County 389
+Ridgetop Robertson County  1083
+Ripley Lauderdale County 7844
+Rives Obion County 331
+Rockford Blount County 798
+Rockwood Roane County 5774
+Rogersville Hawkins County 4240
+Rossville Fayette County 380
+Rutherford Gibson County 1272
+Rutledge Grainger County 1187
+St. Joseph Lawrence County 829
+Saltillo Hardin County 342
+Samburg Obion County 260
+Sardis Henderson County 445
+Saulsbury Hardeman County 99
+Savannah Hardin County 6917
+Scotts Hill Henderson County 894
+Selmer McNairy County 4541
+Sevierville Sevier County 11757
+Sharon Weakley County 988
+Shelbyville Bedford County 16105
+Signal Mountain Hamilton County 7429
+Silerton Hardeman County 60
+Slayden Dickson County 185
+Smithville DeKalb County 3994
+Smyrna Rutherford County 25569
+Sneedville Hancock County 1351
+Soddy-Daisy Hamilton County 11530
+Somerville Fayette County 2534
+South Carthage Smith County 1302
+South Fulton Obion County 2517
+South Pittsburg Marion County 3295
+Sparta White County 4599
+Spencer Van Buren County 1713
+Spring City Rhea County 2025
+Spring Hill Williamson County  7715
+Springfield Robertson County 14329
+Stanton Haywood County 615
+Stantonville McNairy County 312
+Sunbright Morgan County 577
+Surgoinsville Hawkins County 1484
+Sweetwater Monroe County  5586
+Tazewell Claiborne County 2165
+Tellico Plains Monroe County 859
+Tennessee Ridge Houston County  1334
+Thompson's Station Williamson County 1283
+Three Way Madison County 1375
+Tiptonville Lake County 2439
+Toone Hardeman County 330
+Townsend Blount County 244
+Tracy City Grundy County 1679
+Trenton Gibson County 4683
+Trezevant Carroll County 916
+Trimble Dyer County  728
+Troy Obion County 1273
+Tullahoma Coffee County  17994
+Tusculum Greene County 2004
+Unicoi Unicoi County 3519
+Union City Obion County 10876
+Vanleer Dickson County 310
+Viola Warren County 129
+Vonore Monroe County 1162
+Walden Hamilton County 1960
+Walnut Grove Sumner County 677
+Wartburg Morgan County 890
+Wartrace Bedford County 548
+Watauga Carter County 403
+Watertown Wilson County 1361
+Waverly Humphreys County 4028
+Waynesboro Wayne County 2228
+Westmoreland Sumner County 2093
+White Bluff Dickson County 2142
+White House Sumner County 7297
+White Pine Jefferson County 1997
+Whiteville Hardeman County 4539
+Whitwell Marion County 1660
+Williston Fayette County 330
+Winchester Franklin County 7329
+Winfield Scott County 911
+Woodbury Cannon County 2428
+Woodland Mills Obion County 296
+Yorkville Gibson County 293
+
