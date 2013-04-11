@@ -7,12 +7,19 @@
 //
 
 #include <iostream>
+#include <string>
+#include <cmath>
+#include "SortData.cpp"
+
+using namespace std;
 
 int main(int argc, const char * argv[])
 {
-
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    
+    SortData sort;
+    sort.textToByte(351);
+    
     return 0;
+    
 }
 

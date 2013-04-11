@@ -10,6 +10,7 @@
 #include <fstream>
 #include <string>
 #include <string.h>
+#include <vector>
 using namespace std;
 
 class SortData {
@@ -20,14 +21,19 @@ public:
         char city [25];
         char county [25];
         int population;
+        
+        inline bool operator < ( const countyData &c) const {
+            return population < c.population;
+        }
     };
     
     SortData(){
         
     }
     
-    void textToByte ()
+    void textToByte (int size)
     {
+        
         string inFilename;
         
         cout << "Enter text file name ";
@@ -41,53 +47,56 @@ public:
             return;
         }
         
-        ofstream outputCountyFile ("records.dat", ios::binary | ios::app);
-        fstream outputHashFile ("hashed_county.dat", ios::binary | ios::in | ios::out | ios::app);
+        int count = 0;
+        int recordNum = size / 2;
+        heapSize = 0;
+        heapArray = vector<countyData>(recordNum * sizeof(countyData));
+  
+        // start reading from the given text input
+        readCounty(inputCountyFile, "");
+        
+        while (!inputCountyFile.eof())	{
+            
+            if( count < recordNum ){
+                insertHeap(data);
+            }else if ( count == recordNum){
+                writeHeapToBinary(heapArray, "records_a.dat");
+                makeEmpty();
+                insertHeap(data);
+            }else if ( count > recordNum){
+                insertHeap(data);
+            }
+            
+            cout << data.city << "    " << data.county << "    " << data.population << endl;
+            
+            readCounty(inputCountyFile, "");
+            count++;
+        }
+        
+        writeHeapToBinary(heapArray, "records_b.dat");
+        
+        inputCountyFile.close();
+    }
+    
+    void writeHeapToBinary(vector<countyData> heapVector, string fileName){
+        ofstream outputCountyFile (fileName, ios::binary | ios::app);
         
         if (!outputCountyFile) {
             cout << "data file could not be opened" << endl;
             return;
         }
         
-        if (!outputHashFile) {
-            cout << "data file could not be opened" << endl;
-            return;
-        }
-        
-        int count = 0;
-        
-        // start reading from the given text input
-        readCounty(inputCountyFile, "");
-        
-        while (!inputCountyFile.eof())	{
-            
-            outputCountyFile.write(reinterpret_cast<const char *>( &data ),
-                                   sizeof( countyData ));            
-            count++;
-            
-            cout << data.city << "    " << data.county << "    " << data.population << endl;
-            
-            readCounty(inputCountyFile, "");
-        }
-        
-        // is pointer at the end of the file
-        if (inputCountyFile.eof())
-        {
-            cout << "Number of cities listed = " << count << endl;
-            cout << "Last city in list " << data.city << endl;
-            cout << endl;
-        }
-        
-        else
-        {
-            cout << "error in input file at city " << data.city << endl;
-            cout << data.county << "  " << data.population << endl;
+        int i = 0;
+        while(heapVector.size() != 0){
+            countyData mData =  heapVector[i];
+            outputCountyFile.write(reinterpret_cast<const char *>( &mData ),
+                                   sizeof( countyData ));
         }
         
         outputCountyFile.close();
-        inputCountyFile.close();
     }
-
+    
+    
     // Recursive method to that reads each individual record from the fstream
     void readCounty(fstream &inStream, string prevIn){
         char buffer[25];
@@ -122,10 +131,68 @@ public:
         
     }
     
+    void insertHeap( const countyData & x )
+    {
+        if( isHeapFull( ) ){
+            return;
+        }
+        
+        // Percolate up
+        int hole = ++heapSize;
+        for( ; hole > 1 && x < heapArray[ hole / 2 ]; hole /= 2 )
+            heapArray[ hole ] = heapArray[ hole / 2 ];
+        heapArray[ hole ] = x;
+    }
+    
+    bool isHeapFull( ) const
+    {
+        return heapSize == heapArray.size( ) - 1;
+    }
+    
+    bool isEmpty( ) const
+    {
+        return heapSize == 0;
+    }
+    
+    void makeEmpty( )
+    {
+        heapSize = 0;
+    }
+    
+    void deleteHeapMin( )
+    {
+        if( isEmpty( ) ){
+            return;
+        }
+        heapArray[ 1 ] = heapArray[ heapSize-- ];
+        percolateDown( 1 );
+    }
+    
+    void percolateDown( int hole )
+    {
+        int child;
+        countyData tmp = heapArray[ hole ];
+        
+        for( ; hole * 2 <= heapSize; hole = child )
+        {
+            child = hole * 2;
+            if( child != heapSize && heapArray[ child + 1 ] < heapArray[ child ] )
+                child++;
+            if( heapArray[ child ] < tmp )
+                heapArray[ hole ] = heapArray[ child ];
+            else{
+                break;
+            }
+        }
+        heapArray[ hole ] = tmp;
+    }
+    
 private:
     
     countyData data;
     countyData hashData;
+    vector<countyData> heapArray;
+    int heapSize;
     string cityBuffer;
     char countyBuffer[50];
     

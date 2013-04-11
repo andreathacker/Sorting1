@@ -10,7 +10,6 @@
 		5F39C2A1171689C7004AE06F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F39C2A0171689C7004AE06F /* main.cpp */; };
 		5F39C2A3171689C7004AE06F /* Sorting1.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5F39C2A2171689C7004AE06F /* Sorting1.1 */; };
 		5FEDEA7417168C24001BC46F /* SortData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FEDEA7217168C24001BC46F /* SortData.cpp */; };
-		5FEDEA7817168EEB001BC46F /* BinaryHeap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FEDEA7617168EEB001BC46F /* BinaryHeap.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,8 +30,6 @@
 		5F39C2A0171689C7004AE06F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		5F39C2A2171689C7004AE06F /* Sorting1.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Sorting1.1; sourceTree = "<group>"; };
 		5FEDEA7217168C24001BC46F /* SortData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SortData.cpp; sourceTree = "<group>"; };
-		5FEDEA7617168EEB001BC46F /* BinaryHeap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryHeap.cpp; sourceTree = "<group>"; };
-		5FEDEA7717168EEB001BC46F /* BinaryHeap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinaryHeap.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,8 +65,6 @@
 				5F39C2A0171689C7004AE06F /* main.cpp */,
 				5F39C2A2171689C7004AE06F /* Sorting1.1 */,
 				5FEDEA7217168C24001BC46F /* SortData.cpp */,
-				5FEDEA7617168EEB001BC46F /* BinaryHeap.cpp */,
-				5FEDEA7717168EEB001BC46F /* BinaryHeap.h */,
 			);
 			path = Sorting1;
 			sourceTree = "<group>";
@@ -127,7 +122,6 @@
 			files = (
 				5F39C2A1171689C7004AE06F /* main.cpp in Sources */,
 				5FEDEA7417168C24001BC46F /* SortData.cpp in Sources */,
-				5FEDEA7817168EEB001BC46F /* BinaryHeap.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
