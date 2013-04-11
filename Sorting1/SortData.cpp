@@ -90,7 +90,8 @@ public:
         
         int i = 1;
         while(i < recordNum){
-            countyData mData =  heapVector[i];
+            deleteHeapMin();
+            countyData mData = heapArray[1];
             //cout << mData.city << mData.population << endl;
             outputCountyFile.write(reinterpret_cast<const char *>( &mData ),
                                    sizeof( countyData ));
