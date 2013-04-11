@@ -136,6 +136,92 @@ public:
         
     }
     
+    void dataToText ()
+    {
+        ifstream inAcctsFileA("records_a.dat", ios::binary);
+        
+        if (!inAcctsFileA)
+        {
+            cout << "binary file could not be opened" << endl;
+            return;
+        }
+        
+        ifstream inAcctsFileB("records_b.dat", ios::binary);
+        
+        if (!inAcctsFileB)
+        {
+            cout << "binary file could not be opened" << endl;
+            return;
+        }
+        
+        
+        ofstream outAcctsFileA ("county_records_a.txt");
+        
+        if (!outAcctsFileA) {
+            cout << "report file could not be opened" << endl;
+            return;
+        }
+        
+        ofstream outAcctsFileB ("county_records_b.txt");
+        
+        if (!outAcctsFileB) {
+            cout << "report file could not be opened" << endl;
+            return;
+        }
+        
+        
+        string city = "";
+        int totalCount = 0;
+        
+        countyData dataA;
+        int count = 1;
+        
+        // print out a header '\t' = tab character
+        //outAcctsFile << "City: \t\tCounty: \t\tPopulation:" << endl << endl;
+        
+        // the first time
+        inAcctsFileA.read(reinterpret_cast<char *> (&data), sizeof(countyData));
+        
+        while (inAcctsFileA && !inAcctsFileA.eof()  )
+        {
+            count++;
+            outAcctsFileA << dataA.city << "\t" << dataA.county <<
+			"\t" << dataA.population << endl;
+            
+			//lastItemData = data;
+            
+            // do it again and start the loop again
+            inAcctsFileA.read(reinterpret_cast<char *> (&dataA), sizeof(countyData));
+        }
+        
+        cout << "Read " << count << " number of cities from heap A." << endl;
+        
+        countyData dataB;
+        totalCount += count;
+        count = 1;
+        
+        // the first time
+        inAcctsFileB.read(reinterpret_cast<char *> (&data), sizeof(countyData));
+        
+        while (inAcctsFileB && !inAcctsFileB.eof()  )
+        {
+            count++;
+            outAcctsFileB << dataB.city << "\t" << dataB.county <<
+			"\t" << dataB.population << endl;
+            
+			//lastItemData = data;
+            
+            // do it again and start the loop again
+            inAcctsFileB.read(reinterpret_cast<char *> (&dataB), sizeof(countyData));
+        }
+        
+        cout << "Read " << count << " number of cities from heap B." << endl;
+        
+        totalCount += count;
+        cout << "Number of cities listed total: " << totalCount << endl;
+        
+    }
+    
     void insertHeap( const countyData & x )
     {
         if( isHeapFull( ) ){
@@ -192,6 +278,8 @@ public:
         }
         heapArray[ hole ] = tmp;
     }
+    
+    
     
 private:
     

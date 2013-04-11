@@ -18,6 +18,7 @@ int main(int argc, const char * argv[])
     
     SortData sort;
     sort.textToByte(351);
+    sort.dataToText();
     
     return 0;
     
