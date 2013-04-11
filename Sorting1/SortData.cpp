@@ -48,7 +48,7 @@ public:
         }
         
         int count = 0;
-        int recordNum = size / 2;
+        recordNum = (size + 1) / 2;
         heapSize = 0;
         heapArray = vector<countyData>(recordNum * sizeof(countyData));
   
@@ -67,13 +67,15 @@ public:
                 insertHeap(data);
             }
             
-            cout << data.city << "    " << data.county << "    " << data.population << endl;
+            
             
             readCounty(inputCountyFile, "");
             count++;
         }
-        
         writeHeapToBinary(heapArray, "records_b.dat");
+        
+        cout << count << " number of files read."<< endl;
+        cout << "" << endl;      
         
         inputCountyFile.close();
     }
@@ -86,13 +88,16 @@ public:
             return;
         }
         
-        int i = 0;
-        while(heapVector.size() != 0){
+        int i = 1;
+        while(i < recordNum){
             countyData mData =  heapVector[i];
+            //cout << mData.city << mData.population << endl;
             outputCountyFile.write(reinterpret_cast<const char *>( &mData ),
                                    sizeof( countyData ));
+            i++;
         }
         
+        cout << "Heap A has inserted "<< i << " records" << endl;
         outputCountyFile.close();
     }
     
@@ -157,6 +162,7 @@ public:
     void makeEmpty( )
     {
         heapSize = 0;
+        heapArray = vector<countyData>(recordNum * sizeof(countyData));
     }
     
     void deleteHeapMin( )
@@ -193,6 +199,8 @@ private:
     countyData hashData;
     vector<countyData> heapArray;
     int heapSize;
+    int recordNum = 0;
+    
     string cityBuffer;
     char countyBuffer[50];
     
